@@ -9,10 +9,10 @@
   ],
   "layers": [
     [
-        "&kp Q",  "&kp D",  "&kp R",        "&kp TAB",     "&kp W",     "&kp B",              "&kp J",     "&kp F",   "&kp ESC",     "&kp U",   "&kp P",  "&kp SEMI",
-        "&kp A",  "&kp S",  "&kp H",       "&kp BSPC",     "&kp T",     "&kp G",              "&kp Y",     "&kp N",     "&mo 1",     "&kp E",   "&kp O",     "&kp I",
-        "&kp Z",  "&kp X",  "&kp M", "&kp LEFT_SHIFT",     "&kp C",     "&kp V",              "&kp K",     "&kp L", "&kp RCTRL", "&kp COMMA", "&kp DOT", "&kp SLASH",
-                                           "&kp LGUI", "&kp SPACE", "&kp SPACE",           "&kp RALT", "&kp ENTER", "&kp ENTER"
+        "&kp R",        "&kp TAB",  "&kp Q",    "&kp D",     "&kp W",     "&kp B",              "&kp J",     "&kp F",   "&kp ESC",     "&kp U",   "&kp P",  "&kp SEMI",
+        "&kp H",       "&kp BSPC",  "&kp A",    "&kp S",     "&kp T",     "&kp G",              "&kp Y",     "&kp N",     "&mo 1",     "&kp E",   "&kp O",     "&kp I",
+        "&kp M", "&kp LEFT_SHIFT",  "&kp Z",    "&kp X",     "&kp C",     "&kp V",              "&kp K",     "&kp L", "&kp RCTRL", "&kp COMMA", "&kp DOT", "&kp SLASH",
+                                             "&kp LGUI", "&kp SPACE", "&kp SPACE",           "&kp RALT", "&kp ENTER", "&kp ENTER"
     ], [
            "&trans",       "&kp N1",       "&kp N2",       "&kp N3",       "&kp N4",       "&kp N5",           "&kp N6", "&kp N7", "&kp N8", "&kp N9", "&kp N0", "&trans",
        "&bt BT_CLR", "&bt BT_SEL 0", "&bt BT_SEL 1", "&bt BT_SEL 2", "&bt BT_SEL 3", "&bt BT_SEL 4",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
