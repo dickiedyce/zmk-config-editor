@@ -16,15 +16,26 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    behaviors {
+        bhm: balanced_homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;    // <---[[moderate duration]]
+            quick-tap-ms = <0>;
+            flavor = "balanced";
+            bindings = <&kp>, <&kp>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
-
         default_layer {
             bindings = <
-  &kp R         &kp TAB   &kp Q      &kp D        &kp W     &kp B                &kp J     &kp F      &kp P  &kp SEMI           &kp ESC      &kp U
-  &kp H        &kp BSPC   &kp A      &kp S        &kp T     &kp G                &kp Y     &kp N      &kp O     &kp I  &kp SINGLE_QUOTE      &kp E
-  &kp M  &kp LEFT_SHIFT   &kp Z      &kp X        &kp C     &kp V                &kp K     &kp L    &kp DOT  &kp FSLH         &kp RCTRL  &kp COMMA
+    &kp R        &kp TAB         &kp Q        &kp D        &kp W        &kp B                &kp J     &kp F      &kp P  &kp SEMI           &kp ESC      &kp U
+    &bhm LPAR H  &kp BSPC        &bhm LBKT A  &bhm RBKT S  &bhm RPAR T  &kp G                &kp Y     &kp N      &kp O     &kp I  &kp SINGLE_QUOTE      &kp E
+    &kp M        &kp LEFT_SHIFT  &kp Z        &kp X        &kp C        &kp V                &kp K     &kp L    &kp DOT  &kp FSLH         &kp RCTRL  &kp COMMA
                                  &kp SPACE  &lt 1 SPACE  &kp LGUI            &kp ENTER  &kp RALT  &kp ENTER
             >;
         };
